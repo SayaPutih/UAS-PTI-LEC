@@ -1,11 +1,11 @@
 :root {
   --container-height: 50vh;
-  --card-img-width: 40vh;
-  --card-img-height: 20vh;
-  --h2-font-size: 3vh;
+  --card-img-width: 70vw;
+  --card-img-height: 35vw;
+  --h2-font-size: 3.5vw;
   --gblk-width: 15vh;
   --gblk-height: 22.5vh;
-  --atas-width: 25vh;
+  --atas-width: 40vw;
 }
 
 .kalimantan-container {
@@ -16,8 +16,8 @@
   text-align: center;
   margin-top: 5vh;
   background: rgba(101, 67, 33, 0.6);
-  margin-top: 0px;
-  width: 57%;
+  margin-top: 0;
+  width: 90%;
   margin: 0 auto;
   height: var(--container-height);
 }
@@ -43,7 +43,7 @@
 
 .kalimantan-container p {
   font-family: 'Typewriter', monospace;
-  font-size: 1.5vh;
+  font-size: 1.5vw;
   padding: 1vh;
   margin: 1.5vh;
 }
@@ -73,7 +73,7 @@ h1 {
 }
 
 #gblk {
-  border: 0.5vh solid #D2B48C;
+  border: 0.5vw solid #D2B48C;
   border-radius: 3vh;
 }
 
@@ -88,48 +88,10 @@ h1 {
 }
 
 #isi_card {
-  border: 0.5vh solid #D2B48C;
-  margin-left: 10vh;
-  margin-right: 10vh;
+  border: 0.5vw solid #D2B48C;
+  margin-left: 5vw;
+  margin-right: 5vw;
   border-radius: 3vh;
   color: rgb(49, 27, 6);
   background: rgba(101, 67, 33, 0.8);
-}
-
-#atas{
-    width: 50%;
-    margin-bottom: 100px;
-    opacity: 80%;
-}
-
-#isi_card p{
-    text-align: justify;
-}
-
-h1{
-    color:#2e1c05;
-    font-family: comic sans ms;
-}
-
-#gblk{
-  border:5px solid #D2B48C;
-  border-radius: 15px;
-}
-
-#gblk {
-  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
-  transition-delay: 0.5s; /* Delay the hover effect for 3 seconds */
-}
-
-#gblk:hover {
-  width: 400px;
-  height: 600px;
-}
-#isi_card{
-    border: 2px solid #D2B48C;
-    margin-left:100px ;
-    margin-right: 100px;
-    border-radius: 15px;
-    color:rgb(49, 27, 6);
-    background: rgba(101, 67, 33, 0.8);
 }
