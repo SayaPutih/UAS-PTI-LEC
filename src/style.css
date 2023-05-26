@@ -26,9 +26,13 @@ th{
   border-right: 2px solid #3f2b1d;
   width: 150px;
   height: 50%;
-  font-size: 55%;
+  font-size: 40px;
+  background-color: #3f2b1d;;
 
-  color: #3f2b1d;
+}
+th p{
+  
+  color: #8B4513;
 }
 
 th:hover{
