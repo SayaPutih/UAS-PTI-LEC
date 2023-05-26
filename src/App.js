@@ -97,7 +97,7 @@ function App() {
                 </th>
                 <th>
 
-                <di>
+                <div>
               <Link to="/Sulawesi" style={{ textDecoration: 'none' }}>
                 <p>Sulawesi</p>
               </Link>
