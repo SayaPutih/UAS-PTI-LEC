@@ -76,7 +76,7 @@ body {
   text-transform: none;
   background-color: rgba(189, 108, 47, 0.75);
 
-  width: 65%;
+  width: 90%;
 
 }
 
@@ -102,7 +102,7 @@ body {
 }
 
 #P_Link{
-  font-size: 100%;
+  font-size: 20%;
   border: 2px solid;
   border-radius: 15px;
   padding: 2px;
