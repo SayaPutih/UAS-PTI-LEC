@@ -61,54 +61,54 @@ function App() {
               <tr>
                 <th>
 
-                <div id="Nav_link">
+                <div>
               <Link to="/home" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Home</p>
+                <p>Home</p>
               </Link>
             </div>
             
                 </th>
                 <th>
 
-                <div id="Nav_link">
+                <div>
               <Link to="/Sumatera" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Sumatera</p>
+                <p>Sumatera</p>
               </Link>
             </div>
                   
                 </th>
                 <th>
 
-                <div id="Nav_link">
+                <div>
               <Link to="/Jawa" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Jawa</p>
+                <p>Jawa</p>
               </Link>
             </div>
                   
                 </th>
                 <th>
 
-                <div id="Nav_link">
+                <div>
               <Link to="/kalimantan" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Kalimantan</p>
+                <p>Kalimantan</p>
               </Link>
             </div>
                   
                 </th>
                 <th>
 
-                <div id="Nav_link">
+                <di>
               <Link to="/Sulawesi" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Sulawesi</p>
+                <p>Sulawesi</p>
               </Link>
             </div>
                   
                 </th>
                 <th>
 
-                <div id="Nav_link">
+                <div>
               <Link to="/Papua" style={{ textDecoration: 'none' }}>
-                <p id="P_Link">Papua</p>
+                <p>Papua</p>
               </Link>
             </div>
                 </th>

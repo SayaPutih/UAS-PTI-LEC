@@ -14,8 +14,7 @@
   }
   
   #mini {
-    margin-left: auto;
-    margin-right: auto;
+   
     margin-top: -1px;
     justify-content: center;
     display: flex;
@@ -24,7 +23,7 @@
     border-radius: 0px;
     background: rgba(101, 67, 33, 0.75);
     
-    margin-top: -0px;
+    margin-top: 0px;
     
     
   }

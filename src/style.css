@@ -76,7 +76,7 @@ body {
   text-transform: none;
   background-color: rgba(189, 108, 47, 0.75);
 
-  width: 90%;
+  width: 95%;
 
 }
 
@@ -91,10 +91,9 @@ body {
   border: 0px solid black;
   border-radius: 0px;
   background: rgba(101, 67, 33, 0.75);
-  padding-left: 40px;
-  padding-right: 40px;
 
-  width: 90%;
+
+  width: 100%;
 }
 
 #Nav_link{
