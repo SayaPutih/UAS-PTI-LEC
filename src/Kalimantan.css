@@ -21,21 +21,12 @@
   object-fit: cover;
 }
 
-.kalimantan-container h2 {
-  font-family: 'Typewriter', monospace;
-  font-size: 24px;
-  font-weight: bold;
-  border: 1px solid #D2B48C;
-  padding: 10px;
-  margin: 15px;
-}
-
 .kalimantan-container p {
   font-family: 'Typewriter', monospace;
   font-size: 16px;
   
-  padding: 10px;
-  margin: 15px;
+  padding: 5px;
+  margin: 5px;
 }
 
 #gblk {
