@@ -1,51 +1,99 @@
+:root {
+  --container-height: 50vh;
+  --card-img-width: 40vh;
+  --card-img-height: 20vh;
+  --h2-font-size: 3vh;
+  --gblk-width: 15vh;
+  --gblk-height: 22.5vh;
+  --atas-width: 25vh;
+}
+
 .kalimantan-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 5vh;
   background: rgba(101, 67, 33, 0.6);
   margin-top: 0px;
   width: 57%;
   margin: 0 auto;
+  height: var(--container-height);
 }
 
 .pahlawan-card {
-  margin-bottom: 30px;
+  margin-bottom: 3vh;
 }
 
 .pahlawan-card img {
-  width: 320px;
-  height: 160px;
+  width: var(--card-img-width);
+  height: var(--card-img-height);
   object-fit: cover;
 }
 
 .kalimantan-container h2 {
   font-family: 'Typewriter', monospace;
-  font-size: 24px;
+  font-size: var(--h2-font-size);
   font-weight: bold;
   border: 1px solid #D2B48C;
-  padding: 10px;
-  margin: 15px;
+  padding: 1vh;
+  margin: 1.5vh;
 }
 
 .kalimantan-container p {
   font-family: 'Typewriter', monospace;
-  font-size: 16px;
-  
-  padding: 10px;
-  margin: 15px;
+  font-size: 1.5vh;
+  padding: 1vh;
+  margin: 1.5vh;
 }
 
 #gblk {
-  width:  200px;
-  height: 300px;
-  
+  width: var(--gblk-width);
+  height: var(--gblk-height);
 }
 
 .kalimantan-container img:hover {
   opacity: 1;
+}
+
+#atas {
+  width: var(--atas-width);
+  margin-bottom: 10vh;
+  opacity: 80%;
+}
+
+#isi_card p {
+  text-align: justify;
+}
+
+h1 {
+  color: #2e1c05;
+  font-family: comic sans ms;
+}
+
+#gblk {
+  border: 0.5vh solid #D2B48C;
+  border-radius: 3vh;
+}
+
+#gblk {
+  transition: width 0.3s ease-in-out, height 0.3s ease-in-out;
+  transition-delay: 0.5s;
+}
+
+#gblk:hover {
+  width: 20vh;
+  height: 30vh;
+}
+
+#isi_card {
+  border: 0.5vh solid #D2B48C;
+  margin-left: 10vh;
+  margin-right: 10vh;
+  border-radius: 3vh;
+  color: rgb(49, 27, 6);
+  background: rgba(101, 67, 33, 0.8);
 }
 
 #atas{

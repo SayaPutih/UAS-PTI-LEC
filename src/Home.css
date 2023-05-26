@@ -1,5 +1,12 @@
+:root {
+  --mini-width: 57vh; /* Adjust the width as needed */
+  --prov-bawah-margin-top: 30vh;
+  --bbb-width: 100vh;
+  --sumatera-margin: 10vh;
+}
+
 /* Home Container */
-#link_data{
+#link_data {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -7,64 +14,61 @@
 }
 
 #homePage {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  
-  #mini {
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: -1px;
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    border-radius: 0px;
-    background: rgba(101, 67, 33, 0.75);
-    padding-left: 40px;
-    margin-top: -0px;
-    padding-right: 40px;
-    width: 57%;
-  }
-  
-  #Prov_atas {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 30px;
-  }
-  
-  #Prov_bawah {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin-top: 30px;
-  }
-  
- 
-  #bbb{
-    width: 100%;
-    
-  }
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
-  #sumatera,
-  #sulawesi,
-  #jawa,
-  #papua,
-  #kalimantan{
-    margin-left: 10px;
-    margin-right: 10px;
-  }
+#mini {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1vh;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0;
+  background: rgba(101, 67, 33, 0.75);
+  padding-left: 4vh;
+  margin-top: -0vh;
+  padding-right: 4vh;
+  width: var(--mini-width);
+}
 
+#Prov_atas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 3vh;
+}
 
-  #ajakan{
-    margin-top: 100px;
-  }
+#Prov_bawah {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: var(--prov-bawah-margin-top);
+}
 
-  #Prov_atas {
-    display: flex;
-    flex-direction: column;
-  }
+#bbb {
+  width: var(--bbb-width);
+}
+
+#sumatera,
+#sulawesi,
+#jawa,
+#papua,
+#kalimantan {
+  margin-left: var(--sumatera-margin);
+  margin-right: var(--sumatera-margin);
+}
+
+#ajakan {
+  margin-top: 10vh;
+}
+
+#Prov_atas {
+  display: flex;
+  flex-direction: column;
+}
   
