@@ -18,14 +18,17 @@ body {
 
 table{
   border:2px solid #8B4513;
+  align-items: center;
+  justify-content: center;
 }
 th{
-  width: 70%;
-  height: 40%;
+  border-left: 2px solid #3f2b1d;
+  border-right: 2px solid #3f2b1d;
+  width: 150px;
+  height: 50%;
   font-size: 55%;
-  margin-left: auto;
-  margin-left: auto;
-  color: #c88b5f;
+
+  color: #3f2b1d;
 }
 
 th:hover{
@@ -80,7 +83,7 @@ th:hover{
   text-align: center;
   display: flex;
   align-items: center;
-  justify-content:space-evenly;
+  justify-content:center;
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   border-top:0px ;
