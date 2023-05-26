@@ -1,0 +1,255 @@
+/*Home Container*/
+#mini{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+/*Islands*/ 
+#sumatera{
+  margin-bottom: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  border: 1px solid black;
+}
+#kalimantan{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+#jawa{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+#sulawesi{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+#papua{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 30px;
+  border: 1px solid black;
+}
+/*Home Images*/
+#bbb{
+    margin-left: 0px;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
+
+  /*Done Transfer--------------------------------------------------------------*/
+  #word1{
+    margin-left: 35px;
+    margin-right:35px;
+}
+  #s1{
+    color: rgb(252, 0, 0);
+    opacity: 70%;
+  }
+  
+  #s2{
+    color: white;
+  }
+  #map img{
+    padding: 10px;
+    opacity: 40%;
+    border-radius: 55px;
+    width: 80%;
+    height: 70%;
+  }
+
+  #left img{
+  width: 100px;
+}  
+
+#word1{
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+#word1 p{
+  text-align: justify;
+}
+
+
+
+#listt{
+  text-align: left;
+}
+#mrgn{
+  padding-left: 10px;
+}
+#word2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#word2 img{
+  float: left;
+  width: 150px;
+}
+
+#nav{
+  display: flex;
+  flex-direction: column;
+}
+
+
+
+#remote{
+  width: 5%;
+  height: 20%;
+  border: 2px solid black;
+  border-radius: 55px;
+
+  display: flex;
+  position: fixed;
+
+  right: 50px;
+  bottom: 10px;
+}
+
+
+Link{
+  text-decoration: none;
+}
+#kal{
+  font-size: 100%;
+  border: 2px solid;
+  border-radius: 15px;
+  padding: 2px;
+  color:#D2B48C;
+  background-color: #874e08;
+}
+
+#dalamm{
+  width: 100px;
+}
+#isi{
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -1px;
+  justify-content:center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 0px solid black;
+  border-radius: 0px;
+  background: rgba(101, 67, 33, 0.75);
+  width:57%;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+ 
+#top2{
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid #8B4513;
+  
+  padding:2px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+
+  
+  
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top:0px ;
+
+  color: #c88b5f;
+  font-family: comic sans ms;
+
+  /*border for top*/
+  border-style:outset;
+  border-left:2px inset #8B4513;
+  border-bottom:2px solid #8B4513;
+
+  text-decoration: none;
+  text-transform: none;
+
+  width: 65%;
+
+}
+#top2 {
+  background-color: rgba(189, 108, 47, 0.75);
+}
+#top{
+  margin-left:auto;
+  margin-right:auto;
+  border: 2px solid #8B4513;
+  
+  padding:2px;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  justify-content:space-evenly;
+  
+  
+  background-color:rgb(106, 58, 23, 0.9);
+
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-top:0px ;
+
+  color: #c88b5f;
+  font-family: comic sans ms;
+
+  /*border for top*/
+  border-style:outset;
+  border-left:2px inset #8B4513;
+  border-bottom:2px solid #8B4513;
+
+
+
+  width: 70%;
+
+}
+body{
+  margin:0px;
+  background-image: url(Images/bag.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#sumatera{
+    margin-bottom: 30px;
+    border: 1px solid black;
+  }
+  #kalimantan{
+    margin-left: 10px;
+    border: 1px solid black;
+  }
+  #jawa{
+    margin-bottom: 30px;
+    border: 1px solid black;
+  }
+  #sulawesi{
+    margin-bottom: 30px;
+    border: 1px solid black;
+  }
+  #papua{
+    margin-bottom: 30px;
+    border: 1px solid black;
+  }
+  /*Home Images*/
+  #bbb{
+      margin-left: 0px;
+      width: 100px;
+      height: 100px;
+  }

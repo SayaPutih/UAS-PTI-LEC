@@ -1,38 +1,82 @@
-.App {
-  text-align: center;
+.welcome-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin-top: -50px;
+    
+}
+  
+.welcome-sign {
+    margin-top: -50px;
+    text-align: center;
+    margin-bottom: 10px;
+    background-color: rgba(135, 78, 8, 0.5);
+    padding: 20px;
+
+    border-radius: 15px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#wbird{
+    width: 100px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+
+.button-container {
+    margin-top: 20px;
   }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  
+  #Nav_link {
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
   }
-  to {
-    transform: rotate(360deg);
+
+  #start{
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
+
+  #F_Link {
+
+    color: #D2B48C;
+    width: 300px;
+    height: 50px;
+    background-color: #874e08;
+  }
+  
+  #P_Link:hover {
+    background-color: #c88b5f;
+  }
+  
+#namaa{
+  color: #cf9957;
+  font-family:'consolas';
 }
+#aa {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    padding: 10px;
+    background-color: #e8a350;
+    cursor: pointer;
+    border: 2px solid #874e08;
+  }
+  
+  #aa:hover {
+    background-color:#c88b5f ;
+  }
+
+ 
+  
+  #aa p {
+    margin: 0;
+    color: #874e08;
+  }
+  
+  

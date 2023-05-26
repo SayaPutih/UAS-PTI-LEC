@@ -1,0 +1,45 @@
+{
+    "pahlawan": [
+      {
+        "nama": "Raden Usman Haji Hassan",
+        "tanggal_lahir": "20 Februari 1900",
+        "tanggal_meninggal": "12 Desember 1968",
+        "provinsi": "Kalimantan Barat",
+        "perjuangan": "Memimpin gerakan perlawanan rakyat untuk mempertahankan kemerdekaan Kalimantan Barat dari penjajahan Belanda.",
+        "fotourl" : "http://3.bp.blogspot.com/-I2SVq6RqmgE/UF9kRytiuYI/AAAAAAAACE4/tRUNdm2iXcY/s1600/images.jpg"
+    },
+      {
+        "nama": "Tjilik Riwut",
+        "fotourl" : "https://upload.wikimedia.org/wikipedia/commons/thumb/2/23/Tjilik_Riwut.jpg/263px-Tjilik_Riwut.jpg",
+        "tanggal_lahir": "13 September 1911",
+        "tanggal_meninggal": "3 November 1987",
+        "provinsi": "Kalimantan Tengah",
+        "perjuangan": "Berperan penting dalam pembangunan dan pemekaran wilayah Kalimantan Tengah, serta memperjuangkan otonomi daerah dan pembangunan infrastruktur."
+      },
+      {
+        "nama": "Lambung Mangkurat",
+        "tanggal_lahir": "12 Oktober 1808",
+        "tanggal_meninggal": "6 November 1857",
+        "provinsi": "Kalimantan Selatan",
+        "fotourl" : "https://upload.wikimedia.org/wikipedia/id/8/89/Pangeran_Hidayatullah_Museum_Lambung_Mangkurat.JPG?20070629090534",
+        "perjuangan": "Melindungi kepentingan rakyat Kalimantan Selatan dan memperjuangkan kebebasan serta otonomi daerah."
+      },
+      {
+        "nama": "Aji Imbut",
+        "tanggal_lahir": "8 Juli 1923",
+        "tanggal_meninggal": "2 April 2006",
+        "provinsi": "Kalimantan Timur",
+        "fotourl" : "https://upload.wikimedia.org/wikipedia/commons/0/0b/Aji_Muhammad_Idris.jpg",
+        "perjuangan": "Berjuang melindungi wilayah dan kebudayaan suku Dayak Benuaq dari ancaman eksploitasi alam dan perampasan hak-hak masyarakat adat."
+      },
+      {
+        "nama": "Sultan Datuk Tiras",
+        "tanggal_lahir": "Belum diketahui",
+        "tanggal_meninggal": "Belum diketahui",
+        "fotourl": "https://image-korankaltim.sgp1.digitaloceanspaces.com/korkal/news/lg/36216968-cc67-4e0f-8509-ce4c4b01c4bf.jpg",
+        "provinsi": "Kalimantan Utara",
+        "perjuangan": "Sultan Datuk Tiras merupakan sosok yang berjasa dalam memperjuangkan kemajuan dan kemerdekaan Kalimantan Utara. Meskipun informasi mengenai tanggal lahir dan meninggalnya belum diketahui secara pasti, Sultan Datuk Tiras aktif terlibat dalam pergerakan nasional, berjuang untuk kemajuan daerah, dan mendukung upaya memperjuangkan kemerdekaan Kalimantan Utara."
+      }
+    ]
+  }
+  

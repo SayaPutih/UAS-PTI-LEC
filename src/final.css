@@ -1,0 +1,28 @@
+#formm{
+    padding: 10px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    border:2px solid #c88b5f;
+    color: #582c0c;
+    background-color: rgba(189, 108, 47, 0.75);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+input{
+    color: red;
+}
+
+.custom-input::placeholder {
+    
+    color: #582c0c; /* Replace "red" with the desired color */
+  }
+button{
+    opacity: 90%;
+    border: 0px;
+    background-color:#e8a350;
+}
+
+button:hover {
+    background-color:#c88b5f ;
+  }
