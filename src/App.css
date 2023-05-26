@@ -1,128 +1,51 @@
-/* CSS Variables for sizes */
-:root {
-  --welcome-container-height: 100vh;
-  --welcome-sign-margin-top: -5vh;
-  --welcome-sign-padding: 2vw;
-  --wbird-width: 10vw;
-  --button-container-margin-top: 2vh;
-  --nav-link-width: 15vw;
-  --f-link-width: 20vw;
-  --f-link-height: 3.33vh;
-  --aa-border-radius: 1.5vw;
-  --aa-padding: 1vw;
-}
-
-/* Navigation Bar */
-#nav {
-  display: flex;
-  flex-direction: column;
-}
-
-#left img {
-  width: var(--wbird-width);
-}
-
-#s1 {
-  color: rgb(252, 0, 0);
-  opacity: 70%;
-}
-
-#s2 {
-  color: white;
-}
-
-#kanan img {
-  width: var(--wbird-width);
-}
-
-#top_Nav {
-  margin-left: auto;
-  margin-right: auto;
-  border: 0.33vw solid #8B4513;
-  padding: 2px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: rgb(106, 58, 23, 0.9);
-  border-bottom-left-radius: var(--aa-border-radius);
-  border-bottom-right-radius: var(--aa-border-radius);
-  border-top: 0;
-  color: #c88b5f;
-  font-family: comic sans ms;
-  border-style: outset;
-  border-left: 0.33vw inset #8B4513;
-  border-bottom: 0.33vw solid #8B4513;
-  width: var(--nav-link-width);
-}
-
-#top2_Nav {
-  margin-left: auto;
-  margin-right: auto;
-  border: 0.33vw solid #8B4513;
-  padding: 2px;
-  text-align: center;
-  display: flex;
-  align-items: center;
-  justify-content: space-evenly;
-  border-bottom-left-radius: var(--aa-border-radius);
-  border-bottom-right-radius: var(--aa-border-radius);
-  border-top: 0;
-  color: #c88b5f;
-  font-family: comic sans ms;
-  border-style: outset;
-  border-left: 0.33vw inset #8B4513;
-  border-bottom: 0.33vw solid #8B4513;
-  text-decoration: none;
-  text-transform: none;
-  background-color: rgba(189, 108, 47, 0.75);
-  width: var(--nav-link-width);
-}
-
-/* Rest of the code */
 .welcome-container {
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: var(--welcome-container-height);
-  margin-top: var(--welcome-sign-margin-top);
+  height: 100vh;
+  margin-top: -50px;
+  
 }
 
 .welcome-sign {
-  margin-top: var(--welcome-sign-margin-top);
+  margin-top: -50px;
   text-align: center;
-  margin-bottom: 1vh;
+  margin-bottom: 10px;
   background-color: rgba(135, 78, 8, 0.5);
-  padding: var(--welcome-sign-padding);
-  border-radius: var(--aa-border-radius);
+  padding: 20px;
+
+  border-radius: 15px;
 }
 
-#wbird {
-  width: var(--wbird-width);
+#wbird{
+  width: 100px;
 }
+
 
 .button-container {
-  margin-top: var(--button-container-margin-top);
+  margin-top: 20px;
 }
 
 #Nav_link {
-  width: var(--nav-link-width);
+  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  
 }
 
-#start {
+#start{
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 #F_Link {
-  color: #d2b48c;
-  width: var(--f-link-width);
-  height: var(--f-link-height);
+
+  color: #D2B48C;
+  width: 300px;
+  height: 50px;
   background-color: #874e08;
 }
 
@@ -130,25 +53,26 @@
   background-color: #c88b5f;
 }
 
-#namaa {
-  color: #cf9957;
-  font-family: 'consolas';
+#namaa{
+color: #cf9957;
+font-family:'consolas';
 }
-
 #aa {
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: var(--aa-border-radius);
-  padding: var(--aa-padding);
+  border-radius: 15px;
+  padding: 10px;
   background-color: #e8a350;
   cursor: pointer;
-  border: 0.33vw solid #874e08;
+  border: 2px solid #874e08;
 }
 
 #aa:hover {
-  background-color: #c88b5f;
+  background-color:#c88b5f ;
 }
+
+
 
 #aa p {
   margin: 0;

@@ -8,6 +8,7 @@ import Gar from './Images/GarudaREc.jpg';
 import './style.css';
 import './App.css';
 import './final.css'
+import './size.css';
 
 import Home from './Home';
 import Kalimantan from './Kalimantan';

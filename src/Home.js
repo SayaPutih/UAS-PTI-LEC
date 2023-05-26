@@ -4,6 +4,7 @@ import ind from './Images/indo.png';
 import bird from './Images/pancasila.png';
 import './Home.css';
 import './style.css';
+import './size.css';
 
 import ISumatera from './Images/Sumatera.png';
 import ISulawesi from './Images/Sulawesi.png';

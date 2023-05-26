@@ -1,6 +1,7 @@
 import React from 'react';
 import pahlawanData from './Jawa.json';
 import './Kalimantan.css';
+import './size.css';
 import kalimantan from './Images/Jawa.png'
 
 const Kalimantan = () => {

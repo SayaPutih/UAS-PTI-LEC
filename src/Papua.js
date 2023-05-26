@@ -2,6 +2,7 @@ import React from 'react';
 import pahlawanData from './Papua.json';
 import './Kalimantan.css';
 import kalimantan from './Images/Papua.png'
+import './size.css';
 
 const Kalimantan = () => {
   return (
