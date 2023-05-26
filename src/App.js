@@ -44,7 +44,7 @@ function App() {
             </div>
             <div id="center">
               {!searchQuery ? (
-                <h1 id="indonesia">Indonesia</h1>
+                <h1 id="indonesia">Indo</h1>
               ) : (
                 <h1 id="indonesia">Welcome to Indonesia <span id ="namaa">{searchQuery}</span></h1>
               )}
