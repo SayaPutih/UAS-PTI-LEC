@@ -16,6 +16,22 @@ body {
   flex-direction: column;
 }
 
+table{
+  border:2px solid #8B4513;
+}
+th{
+  width: 20%;
+  font-size: 15%;
+  margin-left: auto;
+  margin-left: auto;
+  color: #c88b5f;
+}
+
+th:hover{
+  background-color: #8B4513;
+}
+
+
 #left img{
   width: 100px;
 } 
