@@ -56,37 +56,74 @@ function App() {
           </div>
 
           <div id="top2_Nav">
-            <div id="Nav_link">
+
+             <table>
+              <tr>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/home" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Home</p>
               </Link>
             </div>
-            <div id="Nav_link">
+            
+                </th>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/Sumatera" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Sumatera</p>
               </Link>
             </div>
-            <div id="Nav_link">
+                  
+                </th>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/Jawa" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Jawa</p>
               </Link>
             </div>
-            <div id="Nav_link">
+                  
+                </th>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/kalimantan" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Kalimantan</p>
               </Link>
             </div>
-            <div id="Nav_link">
+                  
+                </th>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/Sulawesi" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Sulawesi</p>
               </Link>
             </div>
-            <div id="Nav_link">
+                  
+                </th>
+                <th>
+
+                <div id="Nav_link">
               <Link to="/Papua" style={{ textDecoration: 'none' }}>
                 <p id="P_Link">Papua</p>
               </Link>
             </div>
+                  
+          
+              </tr>
+            </table>     
+            
+            
+            
+            
+            
+            
           </div>
+
+
         </div>
 
         {showWelcome && (

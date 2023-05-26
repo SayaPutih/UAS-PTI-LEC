@@ -10,6 +10,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    width: 90%;
   }
   
   #mini {
@@ -25,7 +26,7 @@
     
     margin-top: -0px;
     
-    width: 90%;
+    
   }
   
   #Prov_atas {
