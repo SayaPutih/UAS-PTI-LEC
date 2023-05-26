@@ -111,7 +111,7 @@ function App() {
                 <p id="P_Link">Papua</p>
               </Link>
             </div>
-                  
+                </th>
           
               </tr>
             </table>     
